@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#container{
+    width: 800px;
+    border-style:solid;
+    
+}
+#blue{
+    background-color: blue;
+    width:800px;
+    height: 100px; 
+    z-index:1; 
+    position: relative;   
+}
+#white{
+    width: 800px;
+    position: relative;
+    z-index: 1;
+    height: 300px;
+    display: flex;
+    background-color: white;    
+}
+#user{
+    width:100px;
+    height:100px;
+}
+#user_pic{
+    position:absolute;
+    display:flex;
+    z-index:2;
+    top: 50px;
+    left:20px;
+}    
+h1{
+    margin: 50px 0 20px 0;
+}
+#seattle{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 20px;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:300px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    }
+
+#edit_profile{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    a{
+        color: cornflowerblue;
+    }
+.icon{
+        height:30px;
+        padding-right: 20px;
+    }
+#developer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+        
+
